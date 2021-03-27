@@ -11,8 +11,8 @@ sudo su postgres - connect as root user
 psql -- start shell
 >> \l -list all tables 
 >> \du - list all user type \q to get out
->> ALTER USER postgres WITH PASSWORD 'Danish@44'; -- change password last ; is important
->> CREATE USER prune WITH PASSWORD 'YGHEPrQrqbFABS23'; -- create new user
+>> ALTER USER postgres WITH PASSWORD 'xxxxx'; -- change password last ; is important
+>> CREATE USER prune WITH PASSWORD 'xxxx'; -- create new user
 >> ALTER USER prune WITH SUPERUSER; -- change previlages
 >> DROP USER root; -- to drop user
 
