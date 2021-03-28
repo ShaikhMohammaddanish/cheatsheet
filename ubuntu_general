@@ -6,3 +6,6 @@ copy and paste in terminal
 
 open terminal and click on three line button near search> click on preferences > click shorcut > change shortcut from ctl+shift+c to ctl+c
 
+
+apt list --installed  --list all installed pakages 
+ sudo apt-get remove imagemagick-6.q16  --remove/uninstall pakage
