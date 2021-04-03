@@ -9,3 +9,12 @@ open terminal and click on three line button near search> click on preferences >
 
 apt list --installed  --list all installed pakages 
 sudo apt-get remove imagemagick-6.q16  --remove/uninstall pakage
+
+
+
+gsettings
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'  - minimize and maximise on click icon
+
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'previews    - show preview on click on icon 
+
+
