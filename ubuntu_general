@@ -71,3 +71,8 @@ or
 usermod -aG sudo username
 
 ################   manage users  ###############
+
+change the directory owner and group:
+sudo chown www-data:www-data /var/www/[new directory]
+allow the group to write to the directory with appropriate permissions:
+sudo chmod -R 775 /var/www
